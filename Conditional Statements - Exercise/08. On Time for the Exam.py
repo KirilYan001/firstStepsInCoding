@@ -24,4 +24,4 @@ else:
     if diff_min >= 60:
         hour = diff_min // 60
         minutes = diff_min % 60
-        print(f"{hour}:{minutes:02d} hours
+        print(f"{hour}:{minutes:02d} hour")
