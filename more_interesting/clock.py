@@ -12,7 +12,7 @@ def clock():
     label.after(1000, clock)
 
 
-label = Label(root, font=('sans', 80), background='black', foreground='red')
+label = Label(root, font=('sans', 70), background='black', foreground='light blue')
 label.pack(anchor='center')
 clock()
 mainloop()
