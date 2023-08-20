@@ -16,4 +16,4 @@ leftover = food_in_g - eaten_food
 if leftover >= 0:
     print(f"Food is enough! Leftovers: {leftover} grams.")
 else:
-    print(f"Food is not enough. You need {abs(leftover)} grams more." )
+    print(f"Food is not enough. You need {abs(leftover)} grams more.")
